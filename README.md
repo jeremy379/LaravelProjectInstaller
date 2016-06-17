@@ -8,7 +8,7 @@ Composer, git and mercurial will be installed by the script if missing.
 
 #Installation
 
-Retrieve the archive ans launch `./make` in the directory where you want to install you Laravel project.
+Retrieve the archive ans launch `./make install` in the directory where you want to install you Laravel project.
 
 `wget https://github.com/jeremy379/LaravelProjectInstaller/archive/master.zip`
 
@@ -21,3 +21,11 @@ Retrieve the archive ans launch `./make` in the directory where you want to inst
 `rm -rf LaravelProjectInstaller`
 
 `rm master.zip`
+
+#Usage
+
+`./make install` Install a new project and ask you some question for the installation. The config data are stored in a .make_config file in the same directory
+
+`./make update` Do the update of the project from the repository
+
+
