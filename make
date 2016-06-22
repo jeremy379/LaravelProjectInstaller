@@ -145,6 +145,8 @@ elif [ "$PROCESS" = "install" ]
 	cp .env.example .env
 
 	nano .env
+	
+	chmod 0777 -R bootstrap
 
 	composer install
 
